@@ -1,0 +1,16 @@
+<!DOCTYPE module SYSTEM "module.dtd">
+
+<module name="nav_hybrid_heading" dir="nav">
+  <doc>
+    <description>Move heading into the wind when hybrids are hovering.</description>
+  </doc>
+  <header>
+    <file name="nav_hybrid_heading.h"/>
+  </header>
+  <init fun="nav_hybrid_heading_init()"/>
+  <periodic fun="nav_hybrid_heading_periodic()" freq="512"/>
+  <makefile>
+    <file name="nav_hybrid_heading.c"/>
+  </makefile>
+</module>
+
